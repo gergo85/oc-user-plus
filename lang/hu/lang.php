@@ -10,7 +10,7 @@ return [
         'tab' => 'Személyes',
         'first_name' => 'Vezetéknév',
         'last_name' => 'Keresztnév',
-        'sex' => 'Nem',
+        'gender' => 'Nem',
         'job' => 'Foglalkozás',
         'about' => 'Rólam'
     ],
@@ -23,7 +23,7 @@ return [
         'skype' => 'Skype',
         'icq' => 'ICQ'
     ],
-    'sex' => [
+    'gender' => [
         'unknown' => 'ismeretlen',
         'female' => 'nő',
         'male' => 'férfi'

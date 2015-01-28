@@ -10,7 +10,7 @@ return [
         'tab' => 'Personal',
         'first_name' => 'First name',
         'last_name' => 'Last name',
-        'sex' => 'Sex',
+        'gender' => 'Gender',
         'job' => 'Job',
         'about' => 'About me'
     ],
@@ -23,7 +23,7 @@ return [
         'skype' => 'Skype',
         'icq' => 'ICQ'
     ],
-    'sex' => [
+    'gender' => [
         'unknown' => 'unknown',
         'female' => 'female',
         'male' => 'male'

@@ -38,11 +38,11 @@ class Plugin extends PluginBase
                    'tab'   => 'indikator.user::lang.personal.tab',
                    'span'  => 'right'
                ],
-               'sex' => [
-                   'label' => 'indikator.user::lang.personal.sex',
+               'gender' => [
+                   'label' => 'indikator.user::lang.personal.gender',
                    'tab'   => 'indikator.user::lang.personal.tab',
                    'type'  => 'dropdown',
-                   'options' => ['unknown' => Lang::get('indikator.user::lang.sex.unknown'), 'female' => Lang::get('indikator.user::lang.sex.female'), 'male' => Lang::get('indikator.user::lang.sex.male')],
+                   'options' => ['unknown' => Lang::get('indikator.user::lang.gender.unknown'), 'female' => Lang::get('indikator.user::lang.gender.female'), 'male' => Lang::get('indikator.user::lang.gender.male')],
                    'span'  => 'left'
                ],
                'job' => [

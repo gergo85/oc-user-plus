@@ -15,6 +15,11 @@ This plugin extend the RainLab User plugin to some new fields.
 * ICQ
 * Comment
 
+###Available languages
+* en - English
+* de - Deutsch
+* hu - Magyar
+
 ###Installation
 1. Go to the __Settings -> Updates__ page in Backend.
 1. Type the __Indikator.User__ in search field.
