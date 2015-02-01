@@ -4,7 +4,7 @@ This plugin extend the RainLab User plugin to some new fields.
 ###New fields
 * First name
 * Last name
-* Sex
+* Gender
 * Job
 * About me
 * Webpage
