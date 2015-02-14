@@ -1,8 +1,8 @@
 <?php namespace Indikator\User;
 
 use System\Classes\PluginBase;
-use RainLab\User\Models\User as UserModel;
 use RainLab\User\Controllers\Users as UsersController;
+use RainLab\User\Models\User as UserModel;
 use Lang;
 
 class Plugin extends PluginBase
@@ -28,66 +28,66 @@ class Plugin extends PluginBase
             }
 
             $form->addTabFields([
-               'first_name' => [
+               'iu_first_name' => [
                    'label' => 'indikator.user::lang.personal.first_name',
                    'tab'   => 'indikator.user::lang.personal.tab',
                    'span'  => 'left'
                ],
-               'last_name' => [
+               'iu_last_name' => [
                    'label' => 'indikator.user::lang.personal.last_name',
                    'tab'   => 'indikator.user::lang.personal.tab',
                    'span'  => 'right'
                ],
-               'gender' => [
+               'iu_gender' => [
                    'label' => 'indikator.user::lang.personal.gender',
                    'tab'   => 'indikator.user::lang.personal.tab',
                    'type'  => 'dropdown',
                    'options' => ['unknown' => Lang::get('indikator.user::lang.gender.unknown'), 'female' => Lang::get('indikator.user::lang.gender.female'), 'male' => Lang::get('indikator.user::lang.gender.male')],
                    'span'  => 'left'
                ],
-               'job' => [
+               'iu_job' => [
                    'label' => 'indikator.user::lang.personal.job',
                    'tab'   => 'indikator.user::lang.personal.tab',
                    'span'  => 'right'
                ],
-               'about' => [
+               'iu_about' => [
                    'label' => 'indikator.user::lang.personal.about',
                    'tab'   => 'indikator.user::lang.personal.tab',
                    'type'  => 'textarea',
                    'size'  => 'small',
                    'span'  => 'full'
                ],
-               'webpage' => [
+               'iu_webpage' => [
                    'label' => 'indikator.user::lang.internet.webpage',
                    'tab'   => 'indikator.user::lang.internet.tab',
                    'span'  => 'left'
                ],
-               'blog' => [
+               'iu_blog' => [
                    'label' => 'indikator.user::lang.internet.blog',
                    'tab'   => 'indikator.user::lang.internet.tab',
                    'span'  => 'right'
                ],
-               'facebook' => [
+               'iu_facebook' => [
                    'label' => 'indikator.user::lang.internet.facebook',
                    'tab'   => 'indikator.user::lang.internet.tab',
                    'span'  => 'left'
                ],
-               'twitter' => [
+               'iu_twitter' => [
                    'label' => 'indikator.user::lang.internet.twitter',
                    'tab'   => 'indikator.user::lang.internet.tab',
                    'span'  => 'right'
                ],
-               'skype' => [
+               'iu_skype' => [
                    'label' => 'indikator.user::lang.internet.skype',
                    'tab'   => 'indikator.user::lang.internet.tab',
                    'span'  => 'left'
                ],
-               'icq' => [
+               'iu_icq' => [
                    'label' => 'indikator.user::lang.internet.icq',
                    'tab'   => 'indikator.user::lang.internet.tab',
                    'span'  => 'right'
                ],
-               'comment' => [
+               'iu_comment' => [
                    'label' => 'indikator.user::lang.comment',
                    'tab'   => 'rainlab.user::lang.user.account',
                    'type'  => 'textarea',
