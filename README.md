@@ -2,18 +2,20 @@
 This plugin extend the RainLab User plugin to some new fields.
 
 ###New fields
-* First name
-* Last name
-* Gender
-* Job
-* About me
-* Webpage
-* Blog
-* Facebook
-* Twitter
-* Skype
-* ICQ
-* Comment
+* First name (iu_first_name)
+* Last name (iu_last_name)
+* Gender (iu_gender)
+* Job (iu_job)
+* About me (iu_about)
+* Webpage (iu_webpage)
+* Blog (iu_blog)
+* Facebook (iu_facebook)
+* Twitter (iu_twitter)
+* Skype (iu_skype)
+* ICQ (iu_icq)
+* Comment (iu_comment)
+
+(In parentheses there are the field of database column name.)
 
 ###Available languages
 * en - English
