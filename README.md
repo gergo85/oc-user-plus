@@ -2,8 +2,6 @@
 This plugin extend the RainLab User plugin to some new fields.
 
 ###New fields
-* First name (iu_first_name)
-* Last name (iu_last_name)
 * Gender (iu_gender)
 * Job (iu_job)
 * About me (iu_about)

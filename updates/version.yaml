@@ -4,3 +4,6 @@
     - add_profile_fields_to_users_table.php
 1.0.2: Added German language.
 1.0.3: Minor improvements and bugfix.
+1.0.4:
+    - Remove the first and the last name.
+    - remove_first_and_last_names.php

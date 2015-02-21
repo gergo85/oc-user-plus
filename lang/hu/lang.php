@@ -8,8 +8,6 @@ return [
     ],
     'personal' => [
         'tab' => 'Személyes',
-        'first_name' => 'Vezetéknév',
-        'last_name' => 'Keresztnév',
         'gender' => 'Nem',
         'job' => 'Foglalkozás',
         'about' => 'Rólam'

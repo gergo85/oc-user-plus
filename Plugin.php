@@ -28,16 +28,6 @@ class Plugin extends PluginBase
             }
 
             $form->addTabFields([
-               'iu_first_name' => [
-                   'label' => 'indikator.user::lang.personal.first_name',
-                   'tab'   => 'indikator.user::lang.personal.tab',
-                   'span'  => 'left'
-               ],
-               'iu_last_name' => [
-                   'label' => 'indikator.user::lang.personal.last_name',
-                   'tab'   => 'indikator.user::lang.personal.tab',
-                   'span'  => 'right'
-               ],
                'iu_gender' => [
                    'label' => 'indikator.user::lang.personal.gender',
                    'tab'   => 'indikator.user::lang.personal.tab',

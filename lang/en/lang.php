@@ -8,8 +8,6 @@ return [
     ],
     'personal' => [
         'tab' => 'Personal',
-        'first_name' => 'First name',
-        'last_name' => 'Last name',
         'gender' => 'Gender',
         'job' => 'Job',
         'about' => 'About me'
