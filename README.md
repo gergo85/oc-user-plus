@@ -1,4 +1,4 @@
-##User Plus plugin for October CMS
+##User Plus plugin for OctoberCMS
 This plugin extend the RainLab User plugin to some new fields.
 
 ###New fields
