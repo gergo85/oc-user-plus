@@ -22,8 +22,8 @@ This plugin extend the RainLab User plugin to some new fields.
 
 ###Installation
 1. Go to the __Settings -> Updates__ page in Backend.
-1. Type the __Indikator.User__ in search field.
-1. Click on the __Install Plugin__ button.
+1. Click on the __Install Plugins__ button.
+1. Type the __User Plus__ in search field.
 
 ###Credits
 * Plugin icon: [Web App icons](http://icons8.com/web-app/new-icons/all)
