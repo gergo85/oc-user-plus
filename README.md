@@ -18,6 +18,7 @@ This plugin extend the RainLab User plugin to some new fields.
 ###Available languages
 * en - English
 * de - Deutsch
+* fr - Français
 * hu - Magyar
 
 ###Installation
