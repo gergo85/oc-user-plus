@@ -13,4 +13,9 @@ class RemoveFirstAndLastNames extends Migration
             $table->dropColumn('iu_last_name');
         });
     }
+
+    public function down()
+    {
+        // Nothing
+    }
 }

@@ -8,3 +8,4 @@
     - Remove the first and the last name.
     - remove_first_and_last_names.php
 1.0.5: Added French language.
+1.0.6: Fixed the uninstall error.
