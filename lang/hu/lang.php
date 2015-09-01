@@ -3,7 +3,7 @@
 return [
     'plugin' => [
         'name' => 'Felhasználók Plusz',
-        'description' => 'Néhány új hasznos mezővel egészíti ki a Felhasználók kiegészítőt.',
+        'description' => 'Néhány új mezővel egészíti ki a Felhasználók bővítményt.',
         'author' => 'Szabó Gergő'
     ],
     'personal' => [
@@ -26,5 +26,14 @@ return [
         'female' => 'nő',
         'male' => 'férfi'
     ],
-    'comment' => 'Megjegyzés'
+    'comment' => 'Megjegyzés',
+    'widget' => [
+        'title' => 'Felhasználói statisztika',
+        'show_total' => 'Összes mutatása',
+        'show_active' => 'Aktívak mutatása',
+        'show_inactive' => 'Inaktívak mutatása',
+        'total' => 'Összes',
+        'active' => 'Aktív',
+        'inactive' => 'Inaktív'
+    ]
 ];

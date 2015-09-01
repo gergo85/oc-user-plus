@@ -3,7 +3,7 @@
 return [
     'plugin' => [
         'name' => 'User Plus',
-        'description' => 'Added some useful fields for RainLab User plugin.',
+        'description' => 'Added some new fields for RainLab User plugin.',
         'author' => 'Gergő Szabó'
     ],
     'personal' => [
@@ -26,5 +26,14 @@ return [
         'female' => 'female',
         'male' => 'male'
     ],
-    'comment' => 'Comment'
+    'comment' => 'Comment',
+    'widget' => [
+        'title' => 'User Stat',
+        'show_total' => 'Show total',
+        'show_active' => 'Show active',
+        'show_inactive' => 'Show inactive',
+        'total' => 'Total',
+        'active' => 'Active',
+        'inactive' => 'Inactive'
+    ]
 ];

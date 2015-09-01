@@ -20,6 +20,16 @@ class Plugin extends PluginBase
         ];
     }
 
+    public function registerReportWidgets()
+    {
+        return [
+            'Indikator\User\ReportWidgets\Users' => [
+                'label'   => 'indikator.user::lang.widget.title',
+                'context' => 'dashboard'
+            ]
+        ];
+    }
+
     public function boot()
     {
         UsersController::extendFormFields(function($form, $model, $context) {

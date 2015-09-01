@@ -26,5 +26,14 @@ return [
         'female' => 'weiblich',
         'male' => 'männlich'
     ],
-    'comment' => 'Kommentar'
+    'comment' => 'Kommentar',
+    'widget' => [
+        'title' => 'User-Stat',
+        'show_total' => 'Gesamt Zeige',
+        'show_active' => 'Zeigen aktiv',
+        'show_inactive' => 'Zeigen inaktiv',
+        'total' => 'Gesamt',
+        'active' => 'Aktiv',
+        'inactive' => 'Inaktiv'
+    ]
 ];
