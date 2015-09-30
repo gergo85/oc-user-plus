@@ -11,3 +11,6 @@
 1.0.6: Fixed the uninstall error.
 1.0.7: Added the plugin icon.
 1.0.8: Added the dashboard widget.
+1.1.0:
+    - Added new fields: Telephone and Company
+    - add_new_fields_to_users_table.php

@@ -1,4 +1,5 @@
 <?php
+
 return [
     'plugin' => [
         'name' => 'User Plus',
@@ -8,7 +9,9 @@ return [
     'personal' => [
         'tab' => 'Infos personnelles',
         'gender' => 'Genre',
+        'telephone' => 'Téléphone',
         'job' => 'Profession',
+        'company' => 'Compagnie',
         'about' => 'Présentation'
     ],
     'internet' => [

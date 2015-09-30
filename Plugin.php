@@ -49,8 +49,18 @@ class Plugin extends PluginBase
                     ],
                     'span'    => 'auto'
                 ],
+                'iu_telephone' => [
+                    'label' => 'indikator.user::lang.personal.telephone',
+                    'tab'   => 'indikator.user::lang.personal.tab',
+                    'span'  => 'auto'
+                ],
                 'iu_job' => [
                     'label' => 'indikator.user::lang.personal.job',
+                    'tab'   => 'indikator.user::lang.personal.tab',
+                    'span'  => 'auto'
+                ],
+                'iu_company' => [
+                    'label' => 'indikator.user::lang.personal.company',
                     'tab'   => 'indikator.user::lang.personal.tab',
                     'span'  => 'auto'
                 ],
@@ -90,15 +100,16 @@ class Plugin extends PluginBase
                     'label' => 'indikator.user::lang.internet.icq',
                     'tab'   => 'indikator.user::lang.internet.tab',
                     'span'  => 'auto'
-                ],
+                ]
+            ]);
+
+            $form->addSecondaryTabFields([
                 'iu_comment' => [
                     'label' => 'indikator.user::lang.comment',
-                    'tab'   => 'rainlab.user::lang.user.account',
                     'type'  => 'textarea',
-                    'size'  => 'small',
-                    'span'  => 'full'
+                    'size'  => 'small'
                 ]
-           ]);
+            ]);
         });
     }
 }

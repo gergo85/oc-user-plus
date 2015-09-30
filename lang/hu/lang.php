@@ -9,7 +9,9 @@ return [
     'personal' => [
         'tab' => 'Személyes',
         'gender' => 'Neme',
-        'job' => 'Foglalkozása',
+        'telephone' => 'Telefonszám',
+        'job' => 'Foglalkozás',
+        'company' => 'Munkahely',
         'about' => 'Rólam'
     ],
     'internet' => [

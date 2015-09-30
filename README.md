@@ -4,16 +4,18 @@ This plugin extend the [RainLab User](https://github.com/rainlab/user-plugin) pl
 ###New fields
 Field name | Column name
 ---------- | -----------
-**Gender** | iu_gender
-**Job** | iu_job
-**About me** | iu_about
-**Webpage** | iu_webpage
-**Blog** | iu_blog
-**Facebook** | iu_facebook
-**Twitter** | iu_twitter
-**Skype** | iu_skype
-**ICQ** | iu_icq
-**Comment** | iu_comment
+Gender | iu_gender
+Telephone | iu_telephone
+Job | iu_job
+Company | iu_company
+About me | iu_about
+Webpage | iu_webpage
+Blog | iu_blog
+Facebook | iu_facebook
+Twitter | iu_twitter
+Skype | iu_skype
+ICQ | iu_icq
+Comment | iu_comment
 
 ###Available languages
 * en - English

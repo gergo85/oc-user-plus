@@ -9,7 +9,9 @@ return [
     'personal' => [
         'tab' => 'Personal',
         'gender' => 'Gender',
+        'telephone' => 'Telephone',
         'job' => 'Job',
+        'company' => 'Company',
         'about' => 'About me'
     ],
     'internet' => [
