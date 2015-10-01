@@ -12,5 +12,5 @@
 1.0.7: Added the plugin icon.
 1.0.8: Added the dashboard widget.
 1.1.0:
-    - Added new fields: Telephone and Company
+    - Added new Telephone and Company fields.
     - add_new_fields_to_users_table.php
