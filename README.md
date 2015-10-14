@@ -18,6 +18,7 @@ ICQ | iu_icq
 Comment | iu_comment
 
 ###Available languages
+* cs - Czech
 * en - English
 * de - Deutsch
 * fr - Français
