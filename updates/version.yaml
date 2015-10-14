@@ -14,3 +14,4 @@
 1.1.0:
     - Added new Telephone and Company fields.
     - add_new_fields_to_users_table.php
+1.1.1: Added Czech language.
