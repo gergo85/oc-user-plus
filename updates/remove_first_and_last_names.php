@@ -16,6 +16,10 @@ class RemoveFirstAndLastNames extends Migration
 
     public function down()
     {
-        // Nothing
+        Schema::table('users', function($table)
+        {
+            $table->string('iu_first_name', 100)->nullable();
+            $table->string('iu_last_name', 100)->nullable();
+        });
     }
 }
