@@ -15,3 +15,4 @@
     - Added new Telephone and Company fields.
     - add_new_fields_to_users_table.php
 1.1.1: Added Czech language.
+1.1.2: Fixed the uninstall and update issue.
