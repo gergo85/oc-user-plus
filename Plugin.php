@@ -32,7 +32,7 @@ class Plugin extends PluginBase
 
     public function boot()
     {
-        UserModel::extend(function($model){
+        UserModel::extend(function($model) {
             $model->addFillable([
                 'iu_gender',
                 'iu_telephone',
