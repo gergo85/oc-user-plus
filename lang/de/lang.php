@@ -34,8 +34,10 @@ return [
         'show_total' => 'Gesamt Zeige',
         'show_active' => 'Zeigen aktiv',
         'show_inactive' => 'Zeigen inaktiv',
+        'show_deleted' => 'Zeigen gelöscht',
         'total' => 'Gesamt',
         'active' => 'Aktiv',
-        'inactive' => 'Inaktiv'
+        'inactive' => 'Inaktiv',
+        'deleted' => 'Gelöscht'
     ]
 ];

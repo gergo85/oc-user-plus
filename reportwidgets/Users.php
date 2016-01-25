@@ -42,6 +42,11 @@ class Users extends ReportWidgetBase
                 'title'             => 'indikator.user::lang.widget.show_inactive',
                 'default'           => true,
                 'type'              => 'checkbox'
+            ],
+            'deleted' => [
+                'title'             => 'indikator.user::lang.widget.show_deleted',
+                'default'           => true,
+                'type'              => 'checkbox'
             ]
         ];
     }
@@ -50,6 +55,7 @@ class Users extends ReportWidgetBase
     {
         $this->vars['active'] = DB::table('users')->where('is_activated', 1)->count();
         $this->vars['inactive'] = DB::table('users')->where('is_activated', 0)->count();
+        $this->vars['deleted'] = DB::table('users')->where('deleted_at', '>', 0)->count();
         $this->vars['total'] = $this->vars['active'] + $this->vars['inactive'];
     }
 }

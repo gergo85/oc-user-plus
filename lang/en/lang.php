@@ -34,8 +34,10 @@ return [
         'show_total' => 'Show total',
         'show_active' => 'Show active',
         'show_inactive' => 'Show inactive',
+        'show_deleted' => 'Show deleted',
         'total' => 'Total',
         'active' => 'Active',
-        'inactive' => 'Inactive'
+        'inactive' => 'Inactive',
+        'deleted' => 'Deleted'
     ]
 ];

@@ -17,9 +17,16 @@
     <?php endif ?>
 
     <?php if ($this->property('inactive')): ?>
-    <div class="scoreboard-item title-value pull-left" style="margin:20px 0 0 0;">
+    <div class="scoreboard-item title-value pull-left" style="margin:20px 20px 0 0;">
         <h4><?= e(trans('indikator.user::lang.widget.inactive')) ?></h4>
         <p class="text-center"><?= $inactive ?></p>
+    </div>
+    <?php endif ?>
+
+    <?php if ($this->property('deleted')): ?>
+    <div class="scoreboard-item title-value pull-left" style="margin:20px 0 0 0;">
+        <h4><?= e(trans('indikator.user::lang.widget.deleted')) ?></h4>
+        <p class="text-center"><?= $deleted ?></p>
     </div>
     <?php endif ?>
 

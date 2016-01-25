@@ -16,3 +16,4 @@
     - add_new_fields_to_users_table.php
 1.1.1: Added Czech language.
 1.1.2: Fixed the uninstall and update issue.
+1.1.3: Improved the dashboard widget.

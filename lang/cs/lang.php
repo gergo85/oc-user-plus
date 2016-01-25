@@ -34,8 +34,10 @@ return [
         'show_total' => 'Zobrazit celkový počet',
         'show_active' => 'Zobrazit aktivní',
         'show_inactive' => 'Zobrazit neaktivní',
+        'show_deleted' => 'Zobrazit smazané',
         'total' => 'Celkem',
         'active' => 'Aktivní',
-        'inactive' => 'Neaktivní'
+        'inactive' => 'Neaktivní',
+        'deleted' => 'Smazané'
     ]
 ];

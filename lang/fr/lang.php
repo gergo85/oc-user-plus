@@ -34,8 +34,10 @@ return [
         'show_total' => 'Afficher totale',
         'show_active' => 'Afficher actif',
         'show_inactive' => 'Afficher inactive',
+        'show_deleted' => 'Afficher supprimé',
         'total' => 'Global',
         'active' => 'Actif',
-        'inactive' => 'Inactif'
+        'inactive' => 'Inactif',
+        'deleted' => 'Supprimé'
     ]
 ];
