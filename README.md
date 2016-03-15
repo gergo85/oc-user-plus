@@ -25,7 +25,7 @@ Comment | iu_comment
 * hu - Magyar
 
 ###Installation
-1. Go to the __Settings -> Updates__ page in Backend.
+1. Go to the __Settings > Updates__ page in Backend.
 1. Click on the __Install Plugins__ button.
 1. Type the __User Plus__ in search field.
 
