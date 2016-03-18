@@ -32,7 +32,8 @@ class Plugin extends PluginBase
 
     public function boot()
     {
-        UserModel::extend(function($model) {
+        UserModel::extend(function($model)
+        {
             $model->addFillable([
                 'iu_gender',
                 'iu_telephone',
@@ -45,11 +46,12 @@ class Plugin extends PluginBase
                 'iu_twitter',
                 'iu_skype',
                 'iu_icq',
-                'iu_comment',
+                'iu_comment'
             ]);
         });
       
-        UsersController::extendFormFields(function($form, $model, $context) {
+        UsersController::extendFormFields(function($form, $model, $context)
+        {
             if (!$model instanceof UserModel) {
                 return;
             }
