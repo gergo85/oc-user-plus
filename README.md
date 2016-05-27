@@ -1,4 +1,4 @@
-##User Plus plugin for OctoberCMS
+##User Plus plugin
 This plugin extend the [RainLab User](https://github.com/rainlab/user-plugin) plugin to some new fields.
 
 ###New fields
@@ -28,6 +28,7 @@ Comment | iu_comment
 1. Go to the __Settings > Updates__ page in Backend.
 1. Click on the __Install Plugins__ button.
 1. Type the __User Plus__ in search field.
+1. Select the __first hit__ in the list. 
 
 ###Add widget
 1. Go to the __Dashboard__ page in Backend.
