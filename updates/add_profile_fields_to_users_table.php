@@ -28,16 +28,10 @@ class AddProfileFieldsToUsersTable extends Migration
     {
         Schema::table('users', function($table)
         {
-            $table->dropColumn('iu_gender');
-            $table->dropColumn('iu_job');
-            $table->dropColumn('iu_about');
-            $table->dropColumn('iu_webpage');
-            $table->dropColumn('iu_blog');
-            $table->dropColumn('iu_facebook');
-            $table->dropColumn('iu_twitter');
-            $table->dropColumn('iu_skype');
-            $table->dropColumn('iu_icq');
-            $table->dropColumn('iu_comment');
+            $table->dropColumn([
+                'iu_first_name', 'iu_last_name', 'iu_gender', 'iu_job', 'iu_about', 'iu_webpage', 'iu_blog',
+                'iu_facebook', 'iu_twitter', 'iu_skype', 'iu_icq', 'iu_comment'
+            ]);
         });
     }
 }

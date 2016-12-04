@@ -18,8 +18,7 @@ class AddNewFieldsToUsersTable extends Migration
     {
         Schema::table('users', function($table)
         {
-            $table->dropColumn('iu_telephone');
-            $table->dropColumn('iu_company');
+            $table->dropColumn(['iu_telephone', 'iu_company']);
         });
     }
 }

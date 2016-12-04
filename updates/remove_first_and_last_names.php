@@ -9,8 +9,7 @@ class RemoveFirstAndLastNames extends Migration
     {
         Schema::table('users', function($table)
         {
-            $table->dropColumn('iu_first_name');
-            $table->dropColumn('iu_last_name');
+            $table->dropColumn(['iu_first_name', 'iu_last_name']);
         });
     }
 
