@@ -35,9 +35,13 @@ return [
         'show_active' => 'Afficher actif',
         'show_inactive' => 'Afficher inactive',
         'show_deleted' => 'Afficher supprimé',
+        'show_guest' => 'Afficher client',
+        'show_superuser' => 'Afficher superuser',
         'total' => 'Global',
         'active' => 'Actif',
         'inactive' => 'Inactif',
-        'deleted' => 'Supprimé'
+        'deleted' => 'Supprimé',
+        'guest' => 'Client',
+        'superuser' => 'Superuser'
     ]
 ];

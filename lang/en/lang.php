@@ -35,9 +35,13 @@ return [
         'show_active' => 'Show active',
         'show_inactive' => 'Show inactive',
         'show_deleted' => 'Show deleted',
+        'show_guest' => 'Show guest',
+        'show_superuser' => 'Show superuser',
         'total' => 'Total',
         'active' => 'Active',
         'inactive' => 'Inactive',
-        'deleted' => 'Deleted'
+        'deleted' => 'Deleted',
+        'guest' => 'Guest',
+        'superuser' => 'Superuser'
     ]
 ];

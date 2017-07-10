@@ -32,12 +32,16 @@ return [
     'widget' => [
         'title' => 'User-Stat',
         'show_total' => 'Gesamt Zeige',
-        'show_active' => 'Zeigen aktiv',
-        'show_inactive' => 'Zeigen inaktiv',
-        'show_deleted' => 'Zeigen gelöscht',
+        'show_active' => 'Zeigen Aktiv',
+        'show_inactive' => 'Zeigen Inaktiv',
+        'show_deleted' => 'Zeigen Gelöscht',
+        'show_guest' => 'Zeigen Gast',
+        'show_superuser' => 'Zeigen Superuser',
         'total' => 'Gesamt',
         'active' => 'Aktiv',
         'inactive' => 'Inaktiv',
-        'deleted' => 'Gelöscht'
+        'deleted' => 'Gelöscht',
+        'guest' => 'Gast',
+        'superuser' => 'Superuser'
     ]
 ];

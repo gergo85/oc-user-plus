@@ -2,7 +2,8 @@
 
 use Backend\Classes\ReportWidgetBase;
 use Exception;
-use DB;
+use Schema;
+use RainLab\User\Models\User;
 
 class Users extends ReportWidgetBase
 {
@@ -23,7 +24,7 @@ class Users extends ReportWidgetBase
         return [
             'title' => [
                 'title'             => 'backend::lang.dashboard.widget_title_label',
-                'default'           => 'indikator.user::lang.plugin.name',
+                'default'           => 'indikator.user::lang.widget.title',
                 'type'              => 'string',
                 'validationPattern' => '^.+$',
                 'validationMessage' => 'backend::lang.dashboard.widget_title_error'
@@ -47,15 +48,46 @@ class Users extends ReportWidgetBase
                 'title'             => 'indikator.user::lang.widget.show_deleted',
                 'default'           => true,
                 'type'              => 'checkbox'
+            ],
+            'guest' => [
+                'title'             => 'indikator.user::lang.widget.show_guest',
+                'default'           => true,
+                'type'              => 'checkbox'
+            ],
+            'superuser' => [
+                'title'             => 'indikator.user::lang.widget.show_superuser',
+                'default'           => true,
+                'type'              => 'checkbox'
             ]
         ];
     }
 
     protected function loadData()
     {
-        $this->vars['active']   = DB::table('users')->where('is_activated', 1)->count();
-        $this->vars['inactive'] = DB::table('users')->where('is_activated', 0)->count();
-        $this->vars['deleted']  = DB::table('users')->where('deleted_at', '>', 0)->count();
-        $this->vars['total']    = $this->vars['active'] + $this->vars['inactive'];
+        $this->vars['active']   = User::where('is_activated', 1)->count();
+        $this->vars['inactive'] = User::where('is_activated', 0)->count();
+
+        if (Schema::hasColumn('deleted_at')) {
+            $this->vars['deleted'] = User::where('deleted_at', '>', 0)->count();
+        }
+        else {
+            $this->vars['deleted'] = 0;
+        }
+
+        if (Schema::hasColumn('is_guest')) {
+            $this->vars['guest'] = User::where('is_guest', 1)->count();
+        }
+        else {
+            $this->vars['guest'] = 0;
+        }
+
+        if (Schema::hasColumn('is_superuser')) {
+            $this->vars['superuser'] = User::where('is_superuser', 1)->count();
+        }
+        else {
+            $this->vars['superuser'] = 0;
+        }
+
+        $this->vars['total'] = $this->vars['active'] + $this->vars['inactive'];
     }
 }

@@ -35,9 +35,13 @@ return [
         'show_active' => 'Aktívak mutatása',
         'show_inactive' => 'Inaktívak mutatása',
         'show_deleted' => 'Töröltek mutatása',
+        'show_guest' => 'Vendégek mutatása',
+        'show_superuser' => 'Adminok mutatása',
         'total' => 'Összes',
         'active' => 'Aktív',
         'inactive' => 'Inaktív',
-        'deleted' => 'Töröltek'
+        'deleted' => 'Törölt',
+        'guest' => 'Vendég',
+        'superuser' => 'Admin'
     ]
 ];

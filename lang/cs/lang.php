@@ -35,9 +35,13 @@ return [
         'show_active' => 'Zobrazit aktivní',
         'show_inactive' => 'Zobrazit neaktivní',
         'show_deleted' => 'Zobrazit smazané',
+        'show_guest' => 'Zobrazit host',
+        'show_superuser' => 'Zobrazit superuser',
         'total' => 'Celkem',
         'active' => 'Aktivní',
         'inactive' => 'Neaktivní',
-        'deleted' => 'Smazané'
+        'deleted' => 'Smazané',
+        'guest' => 'Host',
+        'superuser' => 'Superuser'
     ]
 ];
