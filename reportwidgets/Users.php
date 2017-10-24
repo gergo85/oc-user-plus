@@ -3,7 +3,7 @@
 use Backend\Classes\ReportWidgetBase;
 use Exception;
 use Schema;
-use RainLab\User\Models\User;
+use Db;
 
 class Users extends ReportWidgetBase
 {
@@ -64,25 +64,25 @@ class Users extends ReportWidgetBase
 
     protected function loadData()
     {
-        $this->vars['active']   = User::where('is_activated', 1)->count();
-        $this->vars['inactive'] = User::where('is_activated', 0)->count();
+        $this->vars['active']   = Db::table('users')->where('is_activated', 1)->count();
+        $this->vars['inactive'] = Db::table('users')->where('is_activated', 0)->count();
 
-        if (Schema::hasColumn('deleted_at')) {
-            $this->vars['deleted'] = User::where('deleted_at', '>', 0)->count();
+        if (Schema::hasColumn('users', 'deleted_at')) {
+            $this->vars['deleted'] = Db::table('users')->where('deleted_at', '>', 0)->count();
         }
         else {
             $this->vars['deleted'] = 0;
         }
 
-        if (Schema::hasColumn('is_guest')) {
-            $this->vars['guest'] = User::where('is_guest', 1)->count();
+        if (Schema::hasColumn('users', 'is_guest')) {
+            $this->vars['guest'] = Db::table('users')->where('is_guest', 1)->count();
         }
         else {
             $this->vars['guest'] = 0;
         }
 
-        if (Schema::hasColumn('is_superuser')) {
-            $this->vars['superuser'] = User::where('is_superuser', 1)->count();
+        if (Schema::hasColumn('users', 'is_superuser')) {
+            $this->vars['superuser'] = Db::table('users')->where('is_superuser', 1)->count();
         }
         else {
             $this->vars['superuser'] = 0;
