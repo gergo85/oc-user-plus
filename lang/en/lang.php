@@ -42,6 +42,7 @@ return [
         'inactive' => 'Inactive',
         'deleted' => 'Deleted',
         'guest' => 'Guest',
-        'superuser' => 'Superuser'
+        'superuser' => 'Superuser',
+        'permission' => 'Manage the widget on Dashboard'
     ]
 ];

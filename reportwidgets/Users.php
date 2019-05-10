@@ -30,34 +30,34 @@ class Users extends ReportWidgetBase
                 'validationMessage' => 'backend::lang.dashboard.widget_title_error'
             ],
             'total' => [
-                'title'             => 'indikator.user::lang.widget.show_total',
-                'default'           => true,
-                'type'              => 'checkbox'
+                'title'   => 'indikator.user::lang.widget.show_total',
+                'default' => true,
+                'type'    => 'checkbox'
             ],
             'active' => [
-                'title'             => 'indikator.user::lang.widget.show_active',
-                'default'           => true,
-                'type'              => 'checkbox'
+                'title'   => 'indikator.user::lang.widget.show_active',
+                'default' => true,
+                'type'    => 'checkbox'
             ],
             'inactive' => [
-                'title'             => 'indikator.user::lang.widget.show_inactive',
-                'default'           => true,
-                'type'              => 'checkbox'
+                'title'   => 'indikator.user::lang.widget.show_inactive',
+                'default' => true,
+                'type'    => 'checkbox'
             ],
             'deleted' => [
-                'title'             => 'indikator.user::lang.widget.show_deleted',
-                'default'           => true,
-                'type'              => 'checkbox'
+                'title'   => 'indikator.user::lang.widget.show_deleted',
+                'default' => true,
+                'type'    => 'checkbox'
             ],
             'guest' => [
-                'title'             => 'indikator.user::lang.widget.show_guest',
-                'default'           => true,
-                'type'              => 'checkbox'
+                'title'   => 'indikator.user::lang.widget.show_guest',
+                'default' => true,
+                'type'    => 'checkbox'
             ],
             'superuser' => [
-                'title'             => 'indikator.user::lang.widget.show_superuser',
-                'default'           => true,
-                'type'              => 'checkbox'
+                'title'   => 'indikator.user::lang.widget.show_superuser',
+                'default' => true,
+                'type'    => 'checkbox'
             ]
         ];
     }

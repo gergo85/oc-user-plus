@@ -42,6 +42,7 @@ return [
         'inactive' => 'Inaktív',
         'deleted' => 'Törölt',
         'guest' => 'Vendég',
-        'superuser' => 'Admin'
+        'superuser' => 'Admin',
+        'permission' => 'Widget kezelése a Vezérlőpulton'
     ]
 ];

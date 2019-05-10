@@ -24,8 +24,20 @@ class Plugin extends PluginBase
     {
         return [
             'Indikator\User\ReportWidgets\Users' => [
-                'label'   => 'indikator.user::lang.widget.title',
-                'context' => 'dashboard'
+                'label'       => 'indikator.user::lang.widget.title',
+                'context'     => 'dashboard',
+                'permissions' => ['indikator.user.widget']
+            ]
+        ];
+    }
+
+    public function registerPermissions()
+    {
+        return [
+            'indikator.user.widget' => [
+                'tab'   => 'indikator.user::lang.plugin.name',
+                'label' => 'indikator.user::lang.widget.permission',
+                'roles' => ['publisher']
             ]
         ];
     }
@@ -49,7 +61,7 @@ class Plugin extends PluginBase
                 'iu_comment'
             ]);
         });
-      
+
         UsersController::extendFormFields(function($form, $model, $context)
         {
             if (!$model instanceof UserModel) {
