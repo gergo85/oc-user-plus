@@ -1,0 +1,11 @@
+{
+    "name": "indikator/user-plugin",
+    "type": "october-plugin",
+    "description": "This plugin extend the RainLab User plugin to some new fields.",
+    "homepage": "https://octobercms.com/plugin/indikator-user",
+    "keywords": ["october", "octobercms"],
+    "license": "MIT",
+    "require": {
+        "composer/installers": "~1.0"
+    }
+}
